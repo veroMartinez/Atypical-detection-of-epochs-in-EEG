@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>852</width>
+    <height>595</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>852</width>
+    <height>595</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>852</width>
+    <height>595</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Ventana graficación</string>
+  </property>
+  <widget class="QLabel" name="label_background">
+   <property name="geometry">
+    <rect>
+     <x>-70</x>
+     <y>-98</y>
+     <width>1071</width>
+     <height>731</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>backgroud.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_zoom">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>540</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Zoom in/out</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_pan">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>540</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Desplazar</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_home">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>540</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Home</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="field_graph">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>821</width>
+     <height>501</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
